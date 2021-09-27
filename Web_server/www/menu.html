@@ -1,0 +1,105 @@
+<!DOCTYPE html><html><head><link rel="icon" href="data:,"></head><body><style>body {background-color: powderblue;}h1   {color: blue;}p    {color: red;}</style><h1>Bienvenue sur le WebServer de Sameo</h1><h2>Commande LIST</h2>    <form method="post"><input type="submit" name="LIST" value="LIST"  />
+</form><p><br></p>
+
+ 
+
+<h2>Commande STAT</h2>
+<form method="post">
+  <br>
+  <label>S&eacute;lectionner le boat sur lequel vous voulez r&eacute;cup&eacute;rer les informations</label> : <input type="text" name="STAT" /> <br>
+    
+     <input type="submit" value="STAT" />
+</form>
+
+
+
+<h2>Commande QUIT</h2>
+<form method="post">
+  <br>
+  <label>S&eacute;lectionner le boat avec lequel vous voulez couper la communication</label> : <input type="text" name="QUIT" /> <br>
+    
+     <input type="submit" value="QUIT" />
+</form>
+
+
+
+
+
+
+
+<h2>Commande UPLOAD</h2>
+<form method="post" enctype="multipart/form-data">
+    <label>S&eacute;lectionner le boat sur lequel uploader la charge</label> : <input type="text" name="UPLO" /> <br>
+    
+    <br><br>
+  <div>
+    <label for="library_upload">S&eacute;lectionner le fichier &agrave; uploader (.so)</label><br>
+    <input type="file" id="image_uploads" name="image_uploads" accept=".so, .h, .c, .o" multiple>
+  </div>
+
+    <br><br>
+
+    <input type="submit" value="UPLOAD" />
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Commande EXECUTE</h2>
+
+<form method="post">
+    <p>
+        <label>Nom de la charge</label> : <input type="text" name="EXEC" />
+    </p>
+
+  <br>
+  <label>S&eacute;lectionner le boat sur lequel ex&eacutecuter la charge</label> : <input type="text" name="EXEC" /> <br>
+    
+     <input type="submit" value="EXECUTE" />
+</form>
+
+
+<h2>Commande DELETE</h2>
+<form method="post">
+    <p>
+        <label>Nom de la charge</label> : <input type="text" name="DELE" />
+    </p>
+
+  <br>
+  <label>S&eacute;lectionner le boat sur lequel supprimer la charge</label> : <input type="text" name="DELE" /> <br>
+    
+     <input type="submit" value="DELETE" />
+</form>
+
+
+<h2>Commande RESULT</h2>
+<form method="post">
+    <p>
+        <label>ID de l'execution </label> : <input type="text" name="RESU" />
+    </p>
+
+  <br>
+  <label>S&eacute;lectionner le boat sur lequel r&eacute;cup&eacute;rer le r&eacute;sultat de la charge</label> : <input type="text" name="RESU" /> <br>
+    
+     <input type="submit" value="RESULT" />
+</form>
+
+
+
+
+
+</body>
+</html>
+

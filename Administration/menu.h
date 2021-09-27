@@ -1,0 +1,2 @@
+void draw();
+int menu();
